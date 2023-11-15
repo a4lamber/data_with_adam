@@ -1,0 +1,16 @@
+[project]
+name = "data_with_adam"
+description = "Personal blog documentation"
+version = "0.0.1"
+dependencies = [
+    "mkdocs==1.5.3",
+    "mkdocs-material==9.4.8",
+    "mkdocs-blogging-plugin==2.2.11", # mkdoc blog plugin
+    "mkdocs-rss-plugin==1.8.0", # mkdoc rss plugin
+    "mkdocs-pymdownx-material-extras==2.5.5"
+    ]
+
+[project.optional-dependencies]
+dev = [
+    "black"
+]
